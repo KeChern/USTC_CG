@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\build\CMakeFiles\2cbce0923e80a652f0f6ed9455538176\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E33E4873-E36E-3EF4-AAA6-DA3670FE5D3A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

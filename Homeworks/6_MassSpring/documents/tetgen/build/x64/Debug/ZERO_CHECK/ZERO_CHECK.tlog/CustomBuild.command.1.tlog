@@ -1,0 +1,10 @@
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\6_MASSSPRING\DOCUMENTS\TETGEN\BUILD\CMAKEFILES\CD15821853B6561579D30B34309CE0EB\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/6_MassSpring/documents/tetgen -BD:/2020CG/USTC_CG-master/Homeworks/6_MassSpring/documents/tetgen/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/2020CG/USTC_CG-master/Homeworks/6_MassSpring/documents/tetgen/build/TetGeneration.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

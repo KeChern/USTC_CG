@@ -1,0 +1,162 @@
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-MKDIR.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -P D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-UPDATE.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -P D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/tmp/ucmake-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-PATCH.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-BUILD.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-INSTALL.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\DA8C1EF3DDA3B705A6AD8E75C00DC22D\UCMAKE-POPULATE-TEST.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\B22B94D4F9A8EF5868BB5A6AB3CAFC36\UCMAKE-POPULATE-COMPLETE.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/CMakeFiles/Debug/ucmake-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/ucmake-populate-prefix/src/ucmake-populate-stamp/Debug/ucmake-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKEFILES\AE5F3C34936986E5F9B1A7EB25DF56F6\UCMAKE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

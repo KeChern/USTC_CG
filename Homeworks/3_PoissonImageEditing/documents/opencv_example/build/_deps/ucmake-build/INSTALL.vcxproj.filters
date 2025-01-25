@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\CMakeFiles\4c0a77bb499c3a3fdb50875b352d6cab\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CAFA1EB8-2226-34CC-B48A-D5FBFDDAF148}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

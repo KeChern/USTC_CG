@@ -1,0 +1,30 @@
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\CMAKEFILES\FDEF0503595490141D46B64A9876C7A1\QRC_MAINWINDOW.CPP.RULE
+setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\SRC\TEST\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

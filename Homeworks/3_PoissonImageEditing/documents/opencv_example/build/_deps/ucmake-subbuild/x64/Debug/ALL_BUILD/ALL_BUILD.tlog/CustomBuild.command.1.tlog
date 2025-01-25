@@ -1,0 +1,10 @@
+^D:\2020CG\USTC_CG-MASTER\HOMEWORKS\3_POISSONIMAGEEDITING\DOCUMENTS\OPENCV_EXAMPLE\BUILD\_DEPS\UCMAKE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

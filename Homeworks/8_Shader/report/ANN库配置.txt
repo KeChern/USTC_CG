@@ -1,0 +1,10 @@
+配置ANN库：
+1.对ann_1.1.2解压，在MS_Win32里找到Ann.sln并打开，将编译器改为Release和x64，对dll生成
+2.生成之后在bin里可以找到ANN.dll，在dll-Release可以找到ANN.lib
+3.include里有ANN文件夹，里面有3个头文件
+4.以上3样东西就可以在项目中使用ANN了
+
+方法:
+1.附加包含目录里加入头文件路径
+2.附加库目录里加入lib路径，附加依赖项加入lib名称
+3.在exe文件同级目录下放ANN.dll

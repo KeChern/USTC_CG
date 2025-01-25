@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21D5B0B8-ECF7-3E41-B0F5-D62F6D189079}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBasic.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaBuild.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaDownload.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaGit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaInit.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaPackage.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaQt.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\cmake\UbpaTool.cmake;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-src\config\Config.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-SameMinorVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\ZERO_CHECK.vcxproj">
+      <Project>{3EEEDE85-04AB-3BF1-99AD-717BEE35D013}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\_deps\ucmake-build\src\test\00_Basic\UCMake_test_00_Basic.vcxproj">
+      <Project>{B33DE98C-429C-305B-9152-5510EC067528}</Project>
+      <Name>UCMake_test_00_Basic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

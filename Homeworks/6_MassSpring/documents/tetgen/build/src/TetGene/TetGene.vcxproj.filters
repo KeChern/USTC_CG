@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\Tet_generate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\predicates.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\Tet_generate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\Vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\globalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{75BFECA9-F249-3048-A79A-B15BD1D16E60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DB1AC73-9F26-389D-80CA-691F8ABEC5B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

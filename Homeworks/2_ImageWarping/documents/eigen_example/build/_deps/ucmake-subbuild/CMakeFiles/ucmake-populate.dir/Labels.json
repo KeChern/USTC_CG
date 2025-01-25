@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/ucmake-populate"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/c2ede8f39bde6682c6e0e51217c500d2/ucmake-populate.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/aa3525bb5d50bef1cd6d10da4613aedd/ucmake-populate-complete.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-install.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-download.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-update.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-patch.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-configure.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-build.rule"
+		},
+		{
+			"file" : "D:/2020CG/USTC_CG-master/Homeworks/2_ImageWarping/documents/eigen_example/build/_deps/ucmake-subbuild/CMakeFiles/da4b012d8e9a68c2c25186c9a65ed158/ucmake-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucmake-populate"
+		],
+		"name" : "ucmake-populate"
+	}
+}

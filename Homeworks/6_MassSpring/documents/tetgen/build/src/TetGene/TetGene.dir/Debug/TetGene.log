@@ -1,0 +1,122 @@
+﻿  Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/6_MassSpring/documents/tetgen/src/TetGene/CMakeLists.txt
+  Tet_generate.cpp
+  main.cpp
+  predicates.cxx
+  tetgen.cxx
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(1690,26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(3317,42): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(11273,24): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27433,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27433,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27433,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27433,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27436,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27436,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27436,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27436,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27444,19): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27444,19): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27444,19): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27444,19): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27447,19): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27447,19): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27447,19): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27447,19): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27456,19): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27456,19): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27456,19): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27456,19): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27459,19): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27459,19): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27459,19): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27459,19): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27473,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27473,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27473,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27473,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27476,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27476,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27476,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27476,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27482,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27482,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27482,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27482,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27485,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27485,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27485,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27485,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27499,16): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27499,16): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27499,16): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27499,16): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27502,16): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27502,16): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27502,16): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27502,16): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27508,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27508,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27508,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27508,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27511,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27511,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27511,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27511,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27521,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27521,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27521,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27521,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27524,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27524,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27524,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27524,18): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27536,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27536,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27536,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27536,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27539,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27539,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27539,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27539,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 6 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27621,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27634,24): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27634,24): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27634,24): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27634,24): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27639,26): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27639,26): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27639,26): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27639,26): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 6 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27658,22): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27675,16): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 5 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27675,16): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27675,16): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27675,16): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27684,20): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 5 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27684,20): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27684,20): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27684,20): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27730,24): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 5 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27730,24): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27730,24): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27730,24): message : 请考虑在格式字符串中使用“%I64x”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27750,18): warning C4477: “printf”: 格式字符串“%lx”需要类型“unsigned long”的参数，但可变参数 4 拥有了类型“uintptr_t”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27750,18): message : 请考虑在格式字符串中使用“%llx”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27750,18): message : 请考虑在格式字符串中使用“%Ix”
+D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\src\TetGene\tetgen.cxx(27750,18): message : 请考虑在格式字符串中使用“%I64x”
+  正在生成代码...
+  TetGene.vcxproj -> D:\2020CG\USTC_CG-master\Homeworks\6_MassSpring\documents\tetgen\bin\TetGened.exe

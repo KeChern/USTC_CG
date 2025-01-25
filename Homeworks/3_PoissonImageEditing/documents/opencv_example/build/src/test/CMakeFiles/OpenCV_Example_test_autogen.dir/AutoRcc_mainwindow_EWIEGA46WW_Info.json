@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen",
+	"CMAKE_BINARY_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test",
+	"CMAKE_SOURCE_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example",
+	"INCLUDE_DIR" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/OpenCV_Example_test_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/Resources/images/save.jpg",
+		"D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/Resources/images/open.jpg"
+	],
+	"LOCK_FILE" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "mainwindow" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_mainwindow.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/Qt5.12.2/5.12.2/msvc2017_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/mainwindow.qrc",
+	"VERBOSITY" : 0
+}

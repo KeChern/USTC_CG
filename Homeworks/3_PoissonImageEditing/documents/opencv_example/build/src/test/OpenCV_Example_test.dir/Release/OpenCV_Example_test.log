@@ -1,0 +1,11 @@
+﻿  Automatic MOC and UIC for target OpenCV_Example_test
+  Automatic RCC for mainwindow.qrc
+  Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/CMakeLists.txt
+  mocs_compilation.cpp
+  ImageWidget.cpp
+D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\ImageWidget.cpp(31,140): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  mainwindow.cpp
+  qrc_mainwindow.cpp
+  正在生成代码...
+  OpenCV_Example_test.vcxproj -> D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\bin\OpenCV_Example_test.exe

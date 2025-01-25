@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E61FBA6D-750F-31AE-AD3C-B2B4164F09E1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>OpenCV_Example_test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCV_Example_test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenCV_Example_testd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCV_Example_test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenCV_Example_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenCV_Example_test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenCV_Example_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenCV_Example_test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenCV_Example_test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Debug;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Debug;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Debug;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target OpenCV_Example_test</Message>
+      <Command>setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Widgetsd.lib;D:\opencv\build\x64\vc15\lib\opencv_world420d.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/lib/OpenCV_Example_testd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin/OpenCV_Example_testd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Release;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Release;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_Release;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target OpenCV_Example_test</Message>
+      <Command>setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Widgets.lib;D:\opencv\build\x64\vc15\lib\opencv_world420.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/lib/OpenCV_Example_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin/OpenCV_Example_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_MinSizeRel;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_MinSizeRel;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_MinSizeRel;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target OpenCV_Example_test</Message>
+      <Command>setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Widgets.lib;D:\opencv\build\x64\vc15\lib\opencv_world420.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/lib/MinSizeRel/OpenCV_Example_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin/MinSizeRel/OpenCV_Example_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_RelWithDebInfo;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_RelWithDebInfo;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\include_RelWithDebInfo;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\.\mkspecs\win32-msvc;D:\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target OpenCV_Example_test</Message>
+      <Command>setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Widgets.lib;D:\opencv\build\x64\vc15\lib\opencv_world420.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/lib/RelWithDebInfo/OpenCV_Example_test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/bin/RelWithDebInfo/OpenCV_Example_test.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\CMakeFiles\fdef0503595490141d46b64a9876c7a1\qrc_mainwindow.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for mainwindow.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\OpenCV_Example_test_autogen.dir\AutoRcc_mainwindow_EWIEGA46WW_Info.json;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\save.jpg;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\open.jpg;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\EWIEGA46WW\qrc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for mainwindow.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\OpenCV_Example_test_autogen.dir\AutoRcc_mainwindow_EWIEGA46WW_Info.json;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\save.jpg;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\open.jpg;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\EWIEGA46WW\qrc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for mainwindow.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\OpenCV_Example_test_autogen.dir\AutoRcc_mainwindow_EWIEGA46WW_Info.json;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\save.jpg;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\open.jpg;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\EWIEGA46WW\qrc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for mainwindow.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/OpenCV_Example_test_autogen.dir/AutoRcc_mainwindow_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\OpenCV_Example_test_autogen.dir\AutoRcc_mainwindow_EWIEGA46WW_Info.json;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\save.jpg;D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\Resources\images\open.jpg;D:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\EWIEGA46WW\qrc_mainwindow.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/src/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example -BD:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build --check-stamp-file D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/src/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\ImageWidget.cpp" />
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\ImageWidget.h" />
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\main.cpp" />
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.cpp" />
+    <ClInclude Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.h" />
+    <None Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.qrc" />
+    <None Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\src\test\mainwindow.ui" />
+    <ClCompile Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\src\test\OpenCV_Example_test_autogen\EWIEGA46WW\qrc_mainwindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\2020CG\USTC_CG-master\Homeworks\3_PoissonImageEditing\documents\opencv_example\build\ZERO_CHECK.vcxproj">
+      <Project>{3EEEDE85-04AB-3BF1-99AD-717BEE35D013}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

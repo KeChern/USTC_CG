@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/CMakeLists.txt
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaBasic.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaBuild.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaDownload.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaGit.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaInit.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaPackage.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaQt.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/cmake/UbpaTool.cmake
+D:/2020CG/USTC_CG-master/Homeworks/3_PoissonImageEditing/documents/opencv_example/build/_deps/ucmake-src/config/Config.cmake.in
+D:/Program Files/CMake/share/cmake-3.16/Modules/BasicConfigVersion-SameMinorVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.16/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.16/Modules/WriteBasicConfigVersionFile.cmake

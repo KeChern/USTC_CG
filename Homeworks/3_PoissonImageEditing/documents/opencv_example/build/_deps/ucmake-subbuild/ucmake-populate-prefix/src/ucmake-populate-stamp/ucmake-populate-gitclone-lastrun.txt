@@ -1,3 +1,0 @@
-repository='https://github.com/Ubpa/UCMake'
-module=''
-tag='origin'
